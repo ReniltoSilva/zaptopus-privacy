@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Zaptopus">
+  <g fill="none" stroke="#0d9488" stroke-width="12" stroke-linecap="round">
+    <path d="M38 80 C 26 92, 36 104, 22 112"/>
+    <path d="M52 86 C 46 98, 56 108, 46 118"/>
+    <path d="M76 86 C 82 98, 72 108, 82 118"/>
+    <path d="M90 80 C 102 92, 92 104, 106 112"/>
+  </g>
+  <ellipse cx="64" cy="58" rx="40" ry="38" fill="#14b8a6"/>
+  <ellipse cx="48" cy="38" rx="11" ry="7" fill="#ffffff" opacity="0.35" transform="rotate(-25 48 38)"/>
+  <circle cx="50" cy="60" r="9" fill="#ffffff"/>
+  <circle cx="78" cy="60" r="9" fill="#ffffff"/>
+  <circle cx="52" cy="62" r="4.5" fill="#0f172a"/>
+  <circle cx="80" cy="62" r="4.5" fill="#0f172a"/>
+  <circle cx="40" cy="74" r="5" fill="#f9a8d4" opacity="0.7"/>
+  <circle cx="88" cy="74" r="5" fill="#f9a8d4" opacity="0.7"/>
+  <path d="M57 76 Q 64 82 71 76" fill="none" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="98,6 84,30 95,30 88,50 108,22 97,22 104,6" fill="#facc15" stroke="#a16207" stroke-width="2" stroke-linejoin="round"/>
+</svg>
