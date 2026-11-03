@@ -1,18 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Zaptopus">
-  <g fill="none" stroke="#0d9488" stroke-width="12" stroke-linecap="round">
-    <path d="M38 80 C 26 92, 36 104, 22 112"/>
-    <path d="M52 86 C 46 98, 56 108, 46 118"/>
-    <path d="M76 86 C 82 98, 72 108, 82 118"/>
-    <path d="M90 80 C 102 92, 92 104, 106 112"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Zaptopus">
+  <defs>
+    <radialGradient id="ztm-corpo" cx="38%" cy="28%" r="78%">
+      <stop offset="0" stop-color="#7ff0dd"/><stop offset="0.55" stop-color="#2cc6ae"/><stop offset="1" stop-color="#0f9a8a"/>
+    </radialGradient>
+    <linearGradient id="ztm-perna" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f9a8a"/><stop offset="0.5" stop-color="#2cc6ae"/><stop offset="1" stop-color="#7ff0dd"/>
+    </linearGradient>
+    <radialGradient id="ztm-bochecha"><stop offset="0" stop-color="#ff6b8a" stop-opacity="0.75"/><stop offset="1" stop-color="#ff6b8a" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ztm-ouro" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff1a6"/><stop offset="0.5" stop-color="#ffd23f"/><stop offset="1" stop-color="#ffab1a"/></linearGradient>
+    <linearGradient id="ztm-fundo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#134e4a"/><stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <radialGradient id="ztm-luz" cx="50%" cy="42%" r="55%">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.45"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="4" y="4" width="248" height="248" rx="64" fill="url(#ztm-fundo)"/>
+  <rect x="4" y="4" width="248" height="248" rx="64" fill="url(#ztm-luz)"/>
+  <rect x="5.5" y="5.5" width="245" height="245" rx="62.5" fill="none" stroke="#fff" stroke-opacity="0.12" stroke-width="3"/>
+  <g transform="translate(15 16) scale(0.88)">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M70 146 C 48 164 34 188 46 206 C 55 219 73 213 68 199" stroke="#0b5e57" stroke-width="25"/><path d="M70 146 C 48 164 34 188 46 206 C 55 219 73 213 68 199" stroke="url(#ztm-perna)" stroke-width="18"/><path d="M94 158 C 84 182 78 204 90 220 C 100 232 116 222 108 210" stroke="#0b5e57" stroke-width="25"/><path d="M94 158 C 84 182 78 204 90 220 C 100 232 116 222 108 210" stroke="url(#ztm-perna)" stroke-width="18"/><path d="M118 162 C 114 186 114 208 124 226" stroke="#0b5e57" stroke-width="25"/><path d="M118 162 C 114 186 114 208 124 226" stroke="url(#ztm-perna)" stroke-width="18"/><path d="M138 162 C 142 186 142 208 132 226" stroke="#0b5e57" stroke-width="25"/><path d="M138 162 C 142 186 142 208 132 226" stroke="url(#ztm-perna)" stroke-width="18"/><path d="M162 158 C 172 182 178 204 166 220 C 156 232 140 222 148 210" stroke="#0b5e57" stroke-width="25"/><path d="M162 158 C 172 182 178 204 166 220 C 156 232 140 222 148 210" stroke="url(#ztm-perna)" stroke-width="18"/><path d="M186 146 C 208 164 222 188 210 206 C 201 219 183 213 188 199" stroke="#0b5e57" stroke-width="25"/><path d="M186 146 C 208 164 222 188 210 206 C 201 219 183 213 188 199" stroke="url(#ztm-perna)" stroke-width="18"/>
   </g>
-  <ellipse cx="64" cy="58" rx="40" ry="38" fill="#14b8a6"/>
-  <ellipse cx="48" cy="38" rx="11" ry="7" fill="#ffffff" opacity="0.35" transform="rotate(-25 48 38)"/>
-  <circle cx="50" cy="60" r="9" fill="#ffffff"/>
-  <circle cx="78" cy="60" r="9" fill="#ffffff"/>
-  <circle cx="52" cy="62" r="4.5" fill="#0f172a"/>
-  <circle cx="80" cy="62" r="4.5" fill="#0f172a"/>
-  <circle cx="40" cy="74" r="5" fill="#f9a8d4" opacity="0.7"/>
-  <circle cx="88" cy="74" r="5" fill="#f9a8d4" opacity="0.7"/>
-  <path d="M57 76 Q 64 82 71 76" fill="none" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
-  <polygon points="98,6 84,30 95,30 88,50 108,22 97,22 104,6" fill="#facc15" stroke="#a16207" stroke-width="2" stroke-linejoin="round"/>
+  <g fill="#fff" opacity="0.7"><circle cx="52" cy="200" r="3.2"/><circle cx="46" cy="188" r="2.6"/><circle cx="204" cy="200" r="3.2"/><circle cx="210" cy="188" r="2.6"/><circle cx="96" cy="216" r="3"/><circle cx="160" cy="216" r="3"/></g>
+  <path d="M128 30 C 188 30 218 76 216 120 C 214 152 192 170 128 170 C 64 170 42 152 40 120 C 38 76 68 30 128 30Z" fill="url(#ztm-corpo)" stroke="#0b5e57" stroke-width="4"/>
+  <ellipse cx="96" cy="58" rx="24" ry="13" fill="#fff" opacity="0.45" transform="rotate(-24 96 58)"/>
+  <ellipse cx="76" cy="136" rx="16" ry="10" fill="url(#ztm-bochecha)"/><ellipse cx="180" cy="136" rx="16" ry="10" fill="url(#ztm-bochecha)"/>
+  <ellipse cx="100" cy="112" rx="15" ry="16.8" fill="#1e293b"/><ellipse cx="156" cy="112" rx="15" ry="16.8" fill="#1e293b"/>
+  <circle cx="95.2" cy="105.7" r="5.7" fill="#fff"/><circle cx="151.2" cy="105.7" r="5.7" fill="#fff"/>
+  <circle cx="105.7" cy="116.5" r="2.4" fill="#fff"/><circle cx="161.7" cy="116.5" r="2.4" fill="#fff"/>
+  <path d="M114 138 Q121 146 128 139 Q135 146 142 138" fill="none" stroke="#1e293b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="190,2 166,46 184,46 172,84 214,30 194,30 206,2" fill="url(#ztm-ouro)" stroke="#b7791f" stroke-width="4" stroke-linejoin="round"/></g>
 </svg>
